@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#searchBar {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+#items {
+    padding: 20px 40px;
+    color: #777
+}
+
+
+
+.list-books {
+    display: flex;
+
+}
+
+
+
+.sidebar-link.active {
+    background-color: #fff;
+    color: #000;
+}
+
+
+.bookshelf.hide {
+    display: none;
+}
+
+.list-books-content {
+    width: 80%;
+    overflow: auto;
+}
